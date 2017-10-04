@@ -1,0 +1,88 @@
+#header{
+    background-image: linear-gradient( 135deg, #FEC163 10%, #DE4313 100%) !important;
+    border: solid 2px rgba(80, 4, 99, 0.57) !important;   
+}
+
+#header > nav ul li{
+    border-top: solid 2px rgba(223, 73, 23, 0.21) !important;
+}
+
+#header > nav ul li a.active {
+    background: #de4615 !important;
+    color: white !important;
+}
+
+#header > header .avatar {
+    width: 100%;
+}
+
+#header > header p {
+    color: white;
+}    
+
+#header > header .avatar{
+    margin: auto;
+}
+
+#header > header{
+    padding: 0;
+}
+
+.image.avatar{
+    border-radius: 0;
+}
+
+.image.avatar img{
+    border-radius: 0;
+}
+
+header.major h2{
+    color: #de4615;
+}
+
+#header-genteamiga{
+    background-image: url(../../images/head1.jpg);
+    height: 35em;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: '';
+    display: block;
+    width: 100%;
+}
+
+input[type="submit"].special, input[type="reset"].special, input[type="button"].special, .button.special{
+    background-color: #de4313;
+    color: #ffffff !important;
+}
+
+ul.feature-icons li:before{
+    background: #de4313;
+}
+
+.image-projects{
+    max-width: 279px;
+}
+
+iframe{
+    margin: 0 0 2.25em 0;
+    width: 100%;
+}
+
+#footer{
+    padding: 0;
+}
+
+@media screen and (max-width: 1024px){
+    #titleBar .toggle:before{
+        background: #de4313;
+    }
+
+    #titleBar{
+        background: #de4313;
+    }
+
+    #titleBar .title{
+        display: none;
+    }
+}
