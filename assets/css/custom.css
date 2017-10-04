@@ -34,6 +34,7 @@
 
 .image.avatar img{
     border-radius: 0;
+    max-height: 200px;
 }
 
 header.major h2{
@@ -84,5 +85,25 @@ iframe{
 
     #titleBar .title{
         display: none;
+    }
+}
+
+#header > footer .icons li a{
+    color:white;
+}
+
+#header > nav ul li a{
+    padding: 0.5em;
+}
+
+@media screen and (max-width: 736px) {
+    #header-genteamiga{
+        height: 20em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #header-genteamiga{
+        height: 20em;
     }
 }
